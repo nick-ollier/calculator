@@ -114,6 +114,9 @@ I had a great time on this project - Thank you for spending the time to look ove
 |       +       |                Handles Plus Input                 |
 |       -       |                Handles Minus Input                |
 |       =       |                Handles Enter Input                |
+|       ±       |             Handles Plus/Minus Input              |
+|       %       |               Handles Percent Input               |
+|       =       |                Handles Enter Input                |
 |   Backspace   |          Deletes the most recent number           |
 |    Escape     |             Clears the current state              |
 | l (lowercase) | Logs the calculators current state to the console |
