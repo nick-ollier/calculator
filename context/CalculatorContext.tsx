@@ -55,7 +55,10 @@ const CalculatorProvider: React.FC = ({ children }) => {
                 } = state;
 
                 // Early return - Number is too large
-                if (displayValue.length >= action.payload.maxLength) {
+                if (
+                    displayValue.length >= action.payload.maxLength &&
+                    !activeOperator
+                ) {
                     return state;
                 }
 
