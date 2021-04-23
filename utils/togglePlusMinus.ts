@@ -1,6 +1,6 @@
 import { operatorRegex } from '@constants';
 
-export const togglePlusMinus = (exp) => {
+export const togglePlusMinus = (exp: string): string => {
     /* Multiply number by -1 to toggle positive/negative values */
     const toggle = (n) => String(n * -1);
 
