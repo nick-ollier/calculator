@@ -101,3 +101,19 @@ I had a great time on this project - Thank you for spending the time to look ove
 -   **Built & Deployed** - on the Vercel platform [here](https://calculator-sandy-psi.vercel.app/)!
 -   **Dark Mode** - Does what it says on the tin - It's becoming a highly sought after feature, so thought I'd give it a bash myself!
 -   **🚧 Component Library 🚧** - I created a custom calculator [**Storybook**](https://storybook.js.org/) component library to display each of the components individually! (There's currently an issue around resolving modules causing Storybook not to open properly - I'll get this fixed asap!)
+-   **Keyboard Controllable** - Supported keys below!
+
+##### Keyboard Inputs:
+
+|      Key      |                      Action                       |
+| :-----------: | :-----------------------------------------------: |
+|      0-9      |               Handles Number Inputs               |
+|       .       |              Handles Decimal Inputs               |
+|      \*       |                Handles Times Input                |
+|       /       |               Handles Divide Input                |
+|       +       |                Handles Plus Input                 |
+|       -       |                Handles Minus Input                |
+|       =       |                Handles Enter Input                |
+|   Backspace   |          Deletes the most recent number           |
+|    Escape     |             Clears the current state              |
+| l (lowercase) | Logs the calculators current state to the console |
