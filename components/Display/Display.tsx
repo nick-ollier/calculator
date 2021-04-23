@@ -2,20 +2,20 @@ import classnames from 'classnames';
 
 export interface DisplayProps {
     locale?: string;
-    displayValue?: number;
+    displayValue?: string;
     portrait: boolean;
 }
 
 const Display: React.FC<DisplayProps> = ({
     locale = 'en-AU',
-    displayValue = 0,
+    displayValue = '0',
     portrait
 }) => {
     let value = Intl.NumberFormat(locale, {
         maximumFractionDigits: 10
-    }).format(displayValue);
+    }).format(Number(displayValue));
 
-    if (portrait && String(displayValue).length >= 10) {
+    if (portrait && displayValue.length >= 10) {
         value = parseFloat(value).toExponential(1);
     }
 

@@ -85,7 +85,8 @@ const CalculatorProvider: React.FC = ({ children }) => {
                 // If display value has a leading zero but is not a decimal - return values without leading 0
                 if (
                     updatedDisplayValue.charAt(0) === '0' &&
-                    updatedDisplayValue.charAt(1) !== '0'
+                    updatedDisplayValue.charAt(1) !== '0' &&
+                    updatedDisplayValue.charAt(1) !== '.'
                 ) {
                     updatedDisplayValue = updatedDisplayValue.substr(1);
                     updatedExpression = updatedExpression.substr(1);
