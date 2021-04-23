@@ -44,7 +44,7 @@ _or_
 
 The app is available locally at [http://localhost:9999](http://localhost:9999)
 _and_
-Hosted on Vercel at [https://calculator-sandy-psi.vercel.app/](https://TBC.vercel.app/)
+Hosted on Vercel at [https://calculator-nick-ollier.vercel.app/](https://TBC.vercel.app/)
 
 ### 🚧 Start up the Storybook component library
 
