@@ -44,7 +44,7 @@ _or_
 
 The app is available locally at [http://localhost:9999](http://localhost:9999)
 _and_
-Hosted on Vercel at [https://TBC.vercel.app/](https://TBC.vercel.app/)
+Hosted on Vercel at [https://calculator-sandy-psi.vercel.app/](https://TBC.vercel.app/)
 
 ### 🚧 Start up the Storybook component library
 
@@ -98,5 +98,6 @@ I had a great time on this project - Thank you for spending the time to look ove
 
 #### Extra Extra Credit:
 
+-   **Built & Deployed** - on the Vercel platform [here](https://calculator-sandy-psi.vercel.app/)!
 -   **Dark Mode** - Does what it says on the tin - It's becoming a highly sought after feature, so thought I'd give it a bash myself!
 -   **🚧 Component Library 🚧** - I created a custom calculator [**Storybook**](https://storybook.js.org/) component library to display each of the components individually! (There's currently an issue around resolving modules causing Storybook not to open properly - I'll get this fixed asap!)
