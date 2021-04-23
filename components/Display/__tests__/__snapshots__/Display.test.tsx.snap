@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: display landscape default matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full text-right text-4xl px-5 px-8"
+    data-testid="display"
+  >
+    0
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: display landscape with props matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full text-right text-4xl px-5 px-8"
+    data-testid="display"
+  >
+    12,345,678
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: display portrait default matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full text-right text-4xl px-5 text-6xl"
+    data-testid="display"
+  >
+    0
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: display portrait with props matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full text-right text-4xl px-5 text-5xl"
+    data-testid="display"
+  >
+    12,345,678
+  </div>
+</DocumentFragment>
+`;

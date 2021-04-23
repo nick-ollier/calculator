@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: history History matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="opacity: 0; height: 80%; width: 80%; top: 10%; left: 10%; position: absolute; display: flex; justify-content: center; align-items: center; z-index: 10; transform: translateY(10px) translateZ(0);"
+  >
+    <div
+      class="h-full w-full p-5 bg-white dark:bg-gray-500 bg-opacity-90 dark:bg-opacity-95 flex flex-col text-gray-500 dark:text-gray-100 rounded-xl"
+      data-testid="history"
+    >
+      <strong
+        class="border-gray-200 border-b mb-5 flex justify-between items-center"
+      >
+        History
+        <button
+          aria-label="Hide History"
+          class="text-3xl min-w-btn-p text-right"
+          type="button"
+        >
+          ×
+        </button>
+      </strong>
+      <div
+        class="flex-grow overflow-scroll"
+      >
+        <div
+          aria-label="1+1=2"
+          class="mb-4 text-right cursor-pointer"
+          role="presentation"
+        >
+          <p
+            class="text-sm"
+          >
+            1 + 1 =
+          </p>
+          <p
+            class="text-2xl font-bold"
+          >
+            2
+          </p>
+        </div>
+      </div>
+      <strong
+        class="border-gray-200 border-t mt-5 flex justify-between items-center"
+      >
+        Clear
+        <button
+          aria-label="Clear History"
+          class="text-3xl min-w-btn-p text-right"
+          type="button"
+        >
+          −
+        </button>
+      </strong>
+    </div>
+  </div>
+</DocumentFragment>
+`;

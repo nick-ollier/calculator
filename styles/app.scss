@@ -1,0 +1,25 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* // Pages
+
+
+// Components */
+/* SCSS */
+
+html,
+body,
+div#__next {
+  height: 100%;
+  width: 100%;
+}
+
+div,
+span,
+button {
+  transition: background-color 0.15s ease-in-out;
+}

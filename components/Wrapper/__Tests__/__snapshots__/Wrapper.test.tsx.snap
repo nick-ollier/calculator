@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: wrapper landscape matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 350px;
+  position: relative;
+  width: 700px;
+}
+
+.c1 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.75);
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  position: absolute;
+}
+
+.c2 {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.c2::after {
+  background-image: url('/iPhone.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: -50%;
+  left: -50%;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.c3 {
+  height: 100%;
+  padding: 20px 40px;
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="c2"
+    />
+    <div
+      class="c3"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: wrapper landscape matches snapshot with overlay 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 350px;
+  position: relative;
+  width: 700px;
+}
+
+.c1 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.75);
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  position: absolute;
+}
+
+.c2 {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.c2::after {
+  background-image: url('/iPhone.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: -50%;
+  left: -50%;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.c3 {
+  height: 100%;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.c4 {
+  height: 86%;
+  width: 94%;
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  background: black;
+  opacity: 0.75;
+  border-radius: 35px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="c2"
+    />
+    <div
+      class="c3"
+    />
+    <div
+      class="c4"
+      data-testid="overlay"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: wrapper portrait matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 700px;
+  position: relative;
+  width: 350px;
+}
+
+.c1 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.75);
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  position: absolute;
+}
+
+.c2 {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.c2::after {
+  background-image: url('/iPhone.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  height: 100%;
+  padding: 30px;
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="c2"
+    />
+    <div
+      class="c3"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: wrapper portrait matches snapshot with overlay 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 700px;
+  position: relative;
+  width: 350px;
+}
+
+.c1 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.75);
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  position: absolute;
+}
+
+.c2 {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.c2::after {
+  background-image: url('/iPhone.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  height: 100%;
+  padding: 30px;
+  position: relative;
+}
+
+.c4 {
+  height: 94%;
+  width: 86%;
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  background: black;
+  opacity: 0.75;
+  border-radius: 35px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="c2"
+    />
+    <div
+      class="c3"
+    />
+    <div
+      class="c4"
+      data-testid="overlay"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: wrapper with darkmode matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 700px;
+  position: relative;
+  width: 350px;
+}
+
+.c1 {
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.75);
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  position: absolute;
+}
+
+.c2 {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.c2::after {
+  background-image: url('/iPhone.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  height: 100%;
+  padding: 30px;
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="c2"
+    />
+    <div
+      class="c3"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,6 @@
+.next/
+eslint
+node_modules/
+build
+coverage
+cypress/

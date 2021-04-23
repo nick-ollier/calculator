@@ -1,0 +1,27 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+        [
+            "babel-plugin-styled-components",
+            {
+                "namespace": "monster"
+            }
+        ],
+        [
+            "module-resolver",
+            {
+                "root": ["./"],
+                "alias": {
+                    "@appTypes": "types/index",
+                    "@components": "components",
+                    "@constants": "constants/index",
+                    "@context": "context",
+                    "@hooks": "hooks",
+                    "@styles": "styles",
+                    "@testUtils": "test-utils",
+                    "@utils": "utils/index"
+                }
+            }
+        ]
+    ]
+}

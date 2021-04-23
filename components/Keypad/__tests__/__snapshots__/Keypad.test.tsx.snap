@@ -1,0 +1,568 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: keypad landscape default matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="grid grid-cols-10 gap-1 px-4"
+    data-testid="keypad"
+  >
+    <button
+      aria-label="("
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      (
+    </button>
+    <button
+      aria-label=")"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      )
+    </button>
+    <button
+      aria-label="mc"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      mc
+    </button>
+    <button
+      aria-label="m+"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      m+
+    </button>
+    <button
+      aria-label="m-"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      m-
+    </button>
+    <button
+      aria-label="mr"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      mr
+    </button>
+    <button
+      aria-label="Clear"
+      class="rounded-full col-span-1 bg-gray-200 text-gray-500 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="clear"
+    >
+      AC
+    </button>
+    <button
+      aria-label="Plus / Minus"
+      class="rounded-full col-span-1 bg-gray-200 text-gray-500 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="plusMinus"
+    >
+      <sup>
+        +
+      </sup>
+      /
+      <sub>
+        −
+      </sub>
+    </button>
+    <button
+      aria-label="Percent"
+      class="rounded-full col-span-1 bg-gray-200 text-gray-500 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="percent"
+    >
+      %
+    </button>
+    <button
+      aria-label="Divide"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="/"
+    >
+      ÷
+    </button>
+    <button
+      aria-label="2<sup>nd</sup>"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      2
+      <sup>
+        nd
+      </sup>
+    </button>
+    <button
+      aria-label="x&sup2;"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      x²
+    </button>
+    <button
+      aria-label="x&sup3;"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      x³
+    </button>
+    <button
+      aria-label="x<sup>y</sup>"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      x
+      <sup>
+        y
+      </sup>
+    </button>
+    <button
+      aria-label="e<sup>x</sup>"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      e
+      <sup>
+        x
+      </sup>
+    </button>
+    <button
+      aria-label="10<sup>x</sup>"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      10
+      <sup>
+        x
+      </sup>
+    </button>
+    <button
+      aria-label="7"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="7"
+    >
+      7
+    </button>
+    <button
+      aria-label="8"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="8"
+    >
+      8
+    </button>
+    <button
+      aria-label="9"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="9"
+    >
+      9
+    </button>
+    <button
+      aria-label="Multiply"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="*"
+    >
+      ×
+    </button>
+    <button
+      aria-label="<sup>1</sup>/<sub>x</sub>"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      <sup>
+        1
+      </sup>
+      /
+      <sub>
+        x
+      </sub>
+    </button>
+    <button
+      aria-label="&sup2;&radic;x"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      ²√x
+    </button>
+    <button
+      aria-label="&sup3;&radic;x"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      ³√x
+    </button>
+    <button
+      aria-label="<sup>y</sup>&radic;x"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      <sup>
+        y
+      </sup>
+      √x
+    </button>
+    <button
+      aria-label="In"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      In
+    </button>
+    <button
+      aria-label="log&#8321;&#8320;"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      log₁₀
+    </button>
+    <button
+      aria-label="4"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="4"
+    >
+      4
+    </button>
+    <button
+      aria-label="5"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="5"
+    >
+      5
+    </button>
+    <button
+      aria-label="6"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="6"
+    >
+      6
+    </button>
+    <button
+      aria-label="Minus"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="-"
+    >
+      −
+    </button>
+    <button
+      aria-label="x!"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      x!
+    </button>
+    <button
+      aria-label="sin"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      sin
+    </button>
+    <button
+      aria-label="cos"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      cos
+    </button>
+    <button
+      aria-label="tan"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      tan
+    </button>
+    <button
+      aria-label="e"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      e
+    </button>
+    <button
+      aria-label="EE"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      EE
+    </button>
+    <button
+      aria-label="1"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="1"
+    >
+      1
+    </button>
+    <button
+      aria-label="2"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="2"
+    >
+      2
+    </button>
+    <button
+      aria-label="3"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="3"
+    >
+      3
+    </button>
+    <button
+      aria-label="Plus"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="+"
+    >
+      +
+    </button>
+    <button
+      aria-label="Rad"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      Rad
+    </button>
+    <button
+      aria-label="sinh"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      sinh
+    </button>
+    <button
+      aria-label="cosh"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      cosh
+    </button>
+    <button
+      aria-label="tanh"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      tanh
+    </button>
+    <button
+      aria-label="&pi;"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      π
+    </button>
+    <button
+      aria-label="Rand"
+      class="rounded-full col-span-1 bg-gray-500 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+    >
+      Rand
+    </button>
+    <button
+      aria-label="0"
+      class="rounded-full col-span-2 bg-gray-400 text-gray-100 text-left px-6 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="0"
+    >
+      0
+    </button>
+    <button
+      aria-label="."
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="."
+    >
+      .
+    </button>
+    <button
+      aria-label="Equals"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-h-btn-l min-w-btn-l"
+      type="button"
+      value="="
+    >
+      =
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component: keypad portrait default matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="grid grid-cols-4 gap-2 mb-6 px-1 text-2xl"
+    data-testid="keypad"
+  >
+    <button
+      aria-label="Clear"
+      class="rounded-full col-span-1 bg-gray-200 text-gray-500 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="clear"
+    >
+      AC
+    </button>
+    <button
+      aria-label="Plus / Minus"
+      class="rounded-full col-span-1 bg-gray-200 text-gray-500 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="plusMinus"
+    >
+      <sup>
+        +
+      </sup>
+      /
+      <sub>
+        −
+      </sub>
+    </button>
+    <button
+      aria-label="Percent"
+      class="rounded-full col-span-1 bg-gray-200 text-gray-500 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="percent"
+    >
+      %
+    </button>
+    <button
+      aria-label="Divide"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="/"
+    >
+      ÷
+    </button>
+    <button
+      aria-label="7"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="7"
+    >
+      7
+    </button>
+    <button
+      aria-label="8"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="8"
+    >
+      8
+    </button>
+    <button
+      aria-label="9"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="9"
+    >
+      9
+    </button>
+    <button
+      aria-label="Multiply"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="*"
+    >
+      ×
+    </button>
+    <button
+      aria-label="4"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="4"
+    >
+      4
+    </button>
+    <button
+      aria-label="5"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="5"
+    >
+      5
+    </button>
+    <button
+      aria-label="6"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="6"
+    >
+      6
+    </button>
+    <button
+      aria-label="Minus"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="-"
+    >
+      −
+    </button>
+    <button
+      aria-label="1"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="1"
+    >
+      1
+    </button>
+    <button
+      aria-label="2"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="2"
+    >
+      2
+    </button>
+    <button
+      aria-label="3"
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="3"
+    >
+      3
+    </button>
+    <button
+      aria-label="Plus"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="+"
+    >
+      +
+    </button>
+    <button
+      aria-label="0"
+      class="rounded-full col-span-2 bg-gray-400 text-gray-100 text-left px-6 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="0"
+    >
+      0
+    </button>
+    <button
+      aria-label="."
+      class="rounded-full col-span-1 bg-gray-400 text-gray-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="."
+    >
+      .
+    </button>
+    <button
+      aria-label="Equals"
+      class="rounded-full col-span-1 bg-orange-200 text-gray-100 dark:bg-orange-100 min-w-btn-p min-h-btn-p"
+      type="button"
+      value="="
+    >
+      =
+    </button>
+  </div>
+</DocumentFragment>
+`;
