@@ -202,6 +202,25 @@ describe('hook: useCalculator', () => {
             });
         });
 
+        it('fn: handleBackspace - !hasChanged', () => {
+            act(() => {
+                result.current.handleNumber('22');
+                result.current.handleOperator('+');
+                result.current.handleNumber('22');
+                result.current.handleEquals();
+            });
+
+            act(() => result.current.handleBackspace());
+
+            expect(result.current.state).toEqual({
+                ...initialState,
+                displayValue: '44',
+                expression: '22+22',
+                hasChanged: false,
+                lastAction: '+22'
+            });
+        });
+
         it('fn: handleEquals', () => {
             act(() => {
                 result.current.handleNumber('1');

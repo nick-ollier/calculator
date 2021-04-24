@@ -2,6 +2,7 @@ import { createContext, useReducer } from 'react';
 import { evaluate } from 'mathjs';
 import { v4 as uuid } from 'uuid';
 import { useLocalStorage } from '@hooks/useLocalStorage';
+import { operatorRegex } from '@constants';
 import { getLastAction, handlePercent, togglePlusMinus } from '@utils';
 import { CalculatorState } from '@appTypes';
 
@@ -154,8 +155,11 @@ const CalculatorProvider: React.FC = ({ children }) => {
             case 'BACKSPACE': {
                 const { displayValue, expression, activeOperator } = state;
 
-                // If value is 0 -OR- there's an active operator
+                // Early Return - If value is 0 -OR- there's an active operator
                 if (displayValue === '0' || activeOperator) return state;
+
+                // Early Return - If hasChanged is true the display currently shows a returned value from pressing equals.
+                if (!state.hasChanged) return state;
 
                 return {
                     ...state,
