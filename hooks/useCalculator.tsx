@@ -35,7 +35,7 @@ export const useCalculator = (portrait: boolean) => {
     };
 
     const handleEquals = () => {
-        dispatch({ type: 'EQUALS' });
+        dispatch({ type: 'EQUALS', payload: { history, setHistory } });
     };
 
     /* istanbul ignore next */
